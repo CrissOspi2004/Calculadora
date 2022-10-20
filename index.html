@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script type="text/javascript" src="controlador.js"></script>
+	<title>Calculadora</title>
+	<link href="Css/estilo.css" rel="stylesheet"> 
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+</head>
+<body>
+	<center>
+		<br>
+		<h1>Formas de laplace</h1>
+		<img src="img/laplace.png" alt="" width="450px" height="150px">
+		<br>
+		<br>
+
+		<form name="form" action="" method="get">
+		<div class="container-md">
+			<div>
+				<img src="img/formula0.png">
+             	<label for="a" class="fw-semibold">Inserte valor para f(t) a</label>
+             	<input id = "n1" type="text" min="0" name="n"></input>
+             	<button class="btn btn-primary loginbutton" onclick="valore1()">Calcular</button> 
+
+
+            </div>
+            <div>
+            	<img src="img/formula1.png">
+             	<label for="b" class="fw-semibold">Inserte valor para f(t) t<sup>n</sup> </label>
+             	<input id = "n2" type="text" min="0" name="n"></input>
+             	<button class="btn btn-primary loginbutton" onclick="factorial()">Calcular</button>
+            </div>
+            <div>
+            	<img src="img/formula4.png">
+             	<label for="e" class="fw-semibold">Inserte valor para f(t) e<sup>at</sup></label>
+             	<input id = "n5" type="text" min="0" name="n"></input>
+             	<button class="btn btn-primary loginbutton" onclick="valore2()">Calcular</button>
+
+
+            </div>
+            <div>
+            	<img src="img/formula7.png">
+             	<label for="g" class="fw-semibold">Inserte valor para f(t) Sen(at) </label>
+             	<input id = "n7" type="text" min="0" name="n"></input>
+             	<button class="btn btn-primary loginbutton" onclick="calc5()">Calcular</button>
+
+
+            </div>
+            <div>
+            	<img src="img/formula8.png">
+             	<label for="h" class="fw-semibold">Inserte valor para f(t) Cos(at) </label>
+             	<input id = "n8" type="text" min="0" name="n"></input>
+             	<button class="btn btn-primary loginbutton" onclick="calc6()">Calcular</button> 
+
+
+            </div>
+            <div>
+            	<img src="img/formula9.png">
+             	<label for="i" class="fw-semibold">Inserte valor para f(t) Senh(at) </label>
+             	<input id = "n9" type="text" min="0" name="n"></input>
+             	<button class="btn btn-primary loginbutton" onclick="calc7()">Calcular</button> 
+
+
+            </div>
+            <div>
+            	<img src="img/formula10.png">
+             	<label for="j" class="fw-semibold">Inserte valor para f(t) Cosh(at)</label>
+             	<input id = "n10" type="text" min="0" name="n"></input>
+             	<button class="btn btn-primary loginbutton" onclick="calc8()">Calcular</button>  
+
+
+            </div>
+            <div>
+            	<img src="img/formula5.png">
+             	<label for="f" class="fw-semibold">Inserte valor para f(t) t<sup>n</sup>.e<sup>-at</sup> </label>
+             	A<input id = "n6" type="text" min="0" name="n"></input>
+             	B<input id = "n61" type="text" min="0" name="n"></input>
+             	<button class="btn btn-primary loginbutton" onclick="calc9()">Calcular</button>  
+
+
+            </div>
+            <div>
+            	<img src="img/formula11.png">
+             	<label for="k" class="fw-semibold">Inserte valor para f(t) e<sup>bt</sup>.sen at</label>
+             	A<input id = "n11" type="text" min="0" name="n"></input>
+             	B<input id = "n111" type="text" min="0" name="n"></input>
+             	 <button class="btn btn-primary loginbutton" onclick="calc11()">Calcular</button>
+
+
+            </div>
+            <div>
+            	<img src="img/formula12.png">
+             	<label for="l" class="fw-semibold"> Inserte valor para f(t) e<sup>bt</sup>.cos at</label>
+             	<input id = "n12" type="text" min="0" name="n"></input>
+             	<a id ="but12"class="btn btn-primary loginbutton">Resolver</a>
+
+
+            </div>
+            
+         </div>
+        </form>
+	</center>
+</body>
+</script>
+	<script src="controlador.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></script>
+</html>
