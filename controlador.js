@@ -58,8 +58,8 @@ function calc9() {
 };
 
 function calc10() {
-          var Val15 = document.getElementById("camp10").value;
-          var Val16 = document.getElementById("camp11").value;
+          var Val15 = document.getElementById("n12").value;
+          var Val16 = document.getElementById("n121").value;
           var numero3 = Val15 * Val15;
         alert("s-"+Val16+"/"+"((s-"+Val16+")^(2))+"+numero3);
 };
